@@ -1,6 +1,6 @@
 <?php
 
-$saldo = 1_000.0;
+$saldo = 1_000.1;
 $titularConta = 'Vinicius Dias';
 
 echo "*************\n";

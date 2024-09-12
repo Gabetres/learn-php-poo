@@ -1,13 +1,14 @@
 <?php
 
 require __DIR__ . "/src/Model/Filme.php";
+require __DIR__ . "/src/Model/Genero.php";
 
 echo "Bem Vindo(a) ao ScreenMatch\n";
 
 $filme = new Filme(
     'Thor - Ragnarock',
     2021,
-    'super-heroi'
+    Genero::SuperHeroi,
 );
 
 $filme->avalia(10);
